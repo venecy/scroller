@@ -3,8 +3,9 @@
 <head>
 	<title>Scroller - Pull-to-Refresh</title>
 
-	<script src="../src/Animate.js"></script>
-	<script src="../src/Scroller.js"></script>
+	<!-- <script src="../src/Animate.js"></script>
+	<script src="../src/Scroller.js"></script> -->
+	<script src="../dist/scroller.js"></script>
           
 	<script src="asset/render.js"></script>
 
@@ -93,6 +94,7 @@
 	var content = document.getElementById("content");
 	var refreshElem = content.getElementsByTagName("div")[0];
 
+	var Scroller = window.Scroller.Scroller
 
 	// Initialize Scroller
 	var scroller = new Scroller(render, {

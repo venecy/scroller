@@ -1,0 +1,30 @@
+{
+  "name": "@gulw/scroller",
+  "version": "1.0.1",
+  "description": "A scroller based on zygna-scroller",
+  "main": "dist/scroller.js",
+  "module": "src/index.js",
+  "scripts": {
+    "build": "rollup -i src/index.js -o dist/scroller.js -m -f umd -n Scroller",
+    "minify": "uglifyjs dist/scroller.js -o dist/scroller.min.js -mc pure_funcs=['Object.defineProperty'] --source-map includeSources,url=scroller.min.js.map"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/venecy/scroller.git"
+  },
+  "keywords": [
+    "scroller"
+  ],
+  "author": "gulewei",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/venecy/scroller/issues"
+  },
+  "homepage": "https://github.com/venecy/scroller#readme",
+  "devDependencies": {
+    "rollup": "^0.58.2"
+  },
+  "dependencies": {
+    "uglify-js": "^3.3.22"
+  }
+}
