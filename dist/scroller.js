@@ -1549,8 +1549,8 @@
     }
   };
 
+  exports.default = Scroller$1;
   exports.Animate = Animate;
-  exports.Scroller = Scroller$1;
   exports.EasyScroller = EasyScroller;
 
   Object.defineProperty(exports, '__esModule', { value: true });
