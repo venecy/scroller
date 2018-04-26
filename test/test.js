@@ -2,7 +2,7 @@
 module("Basics");
 // ========================================================================
 
-var Scroller = window.Scroller.Scroller
+var Scroller = window.Scroller.default
 
 test("Initialization", function () {
 	var scroller1 = new Scroller();
