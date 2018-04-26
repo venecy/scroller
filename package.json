@@ -1,6 +1,6 @@
 {
   "name": "@gulw/scroller",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A scroller based on zygna-scroller",
   "main": "dist/scroller.js",
   "module": "src/index.js",
