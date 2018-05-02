@@ -48,7 +48,7 @@ Usage
 Callback (first parameter of constructor) is required. Options are optional. Defaults are listed above. The created instance must have proper dimensions using a `setDimensions()` call. Afterwards you can pass in event data or manually control scrolling/zooming via the API.
 
 ```js
-import Scroller, { Animate } from '@gulw/scroller' // es module
+import Scroller from '@gulw/scroller' // es module
 
 var Scroller = window.Scroller.default // browser
 ```
