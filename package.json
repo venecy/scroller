@@ -6,7 +6,8 @@
   "module": "src/index.js",
   "scripts": {
     "build": "rollup -i src/index.js -o dist/scroller.js -m -f umd -n Scroller",
-    "minify": "uglifyjs dist/scroller.js -o dist/scroller.min.js -mc pure_funcs=['Object.defineProperty'] --source-map includeSources,url=scroller.min.js.map"
+    "minify": "uglifyjs dist/scroller.js -o dist/scroller.min.js -mc pure_funcs=['Object.defineProperty'] --source-map includeSources,url=scroller.min.js.map",
+    "release": "npm run build && npm run minify && npm version patch && npm publish --access=public"
   },
   "repository": {
     "type": "git",
@@ -22,9 +23,7 @@
   },
   "homepage": "https://github.com/venecy/scroller#readme",
   "devDependencies": {
-    "rollup": "^0.58.2"
-  },
-  "dependencies": {
-    "uglify-js": "^3.3.22"
+    "rollup": "^0.58.2",
+    "uglify-js": "^3.3.22"    
   }
 }
