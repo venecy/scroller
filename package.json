@@ -1,6 +1,6 @@
 {
   "name": "@gulw/scroller",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A scroller based on zygna-scroller",
   "main": "dist/scroller.js",
   "module": "src/index.js",
@@ -24,6 +24,6 @@
   "homepage": "https://github.com/venecy/scroller#readme",
   "devDependencies": {
     "rollup": "^0.58.2",
-    "uglify-js": "^3.3.22"    
+    "uglify-js": "^3.3.22"
   }
 }
